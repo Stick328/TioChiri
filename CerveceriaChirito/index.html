@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>El Tío Chiri</title>
+</head>
+<body>
+<header>
+    <h1>Bodeguita <br> El Tío Chiri</h1>
+</header>
+<form action="/buscar" method="GET" class="busqueda">
+    <input type="search" name="q" placeholder="Buscar...">
+    <button type="submit">Buscar</button>
+</form>
+<main>
+    <h2>Productos</h2>
+    <div>
+        <ul>
+            <li>
+                <img src="media/Cerveza-Pilsen-x-330-ml-800x800-removebg-preview.png" alt="Cerveza Pilsen">
+                <div>
+                    <p>Precio: S/20.00</p>
+                    <p>Cerveza Pilsen</p>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
+            </li>
+            <li>
+                <img src="media/Cerveza-Pilsen-x-330-ml-800x800-removebg-preview.png" alt="Cerveza Pilsen">
+                <div>
+                    <p>Precio: S/20.00</p>
+                    <p>Cerveza Pilsen</p>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
+            </li>
+            <li>
+                <img src="media/Cerveza-Pilsen-x-330-ml-800x800-removebg-preview.png" alt="Cerveza Pilsen">
+                <div>
+                    <p>Precio: S/20.00</p>
+                    <p>Cerveza Pilsen</p>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
+            </li>
+            <li>
+                <img src="media/Cerveza-Pilsen-x-330-ml-800x800-removebg-preview.png" alt="Cerveza Pilsen">
+                <div>
+                    <p>Precio: S/20.00</p>
+                    <p>Cerveza Pilsen</p>
+                </div>
+                <button data-bs-toggle="modal" data-bs-target="#exampleModal">+</button>
+            </li>
+        </ul>
+    </div>
+    <div class="cajapide">
+    <button class="pide">HACER PEDIDO</button>
+    </div>
+</main>
+<footer>
+    <p>Todos los derechos reservados</p>
+</footer>
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Recipient:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message:</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
